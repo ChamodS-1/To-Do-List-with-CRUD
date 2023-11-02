@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="To-Do.js" defer></script>
+    <script src="deleted.js" defer></script>
+    <script src="complet.js" defer></script>
+    <link rel="stylesheet" href="To-Do.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="topic">
+          <h1>To-Do List</h1>
+          <h1 id="maxNumber" class="purple">29</h1>
+        </div>
+    <form>
+        <div class="mb-3 mt-4">
+          <input type="text" name="text-input" class="form-control" id="exampleInputEmail1" maxlength="29" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <div class="statusBar mt-5">
+
+        <div class="dropdown">
+          <select name="drop" id="dropdown">
+            <option value="all">All To-Dos</option>
+            <option value="completed">Completed To-Dos</option>
+            <option value="deleted">Deleted To-Dos</option>
+          </select>
+        </div>
+
+
+        <div class="allToDos">
+          <h5>All To Dos</h5>
+          <h5 id="alltodos">0</h5>
+        </div>
+
+        <div class="completedToDos">
+          <h5>Completed To Dos</h5>
+          <h5 id="completetodos">0</h5>
+        </div>
+
+        <div class="deletedToDos">
+          <h5>Deleted To Dos</h5>
+          <h5 id="deletetodos">0</h5>
+        </div>
+
+      </div>
+
+      
+
+
+      <table class="table mt-3">
+        <thead>
+          <tr id="tableRow">
+            <th scope="col" id="topic1">#</th>
+            <th scope="col" id="topic2">Time</th>
+            <th scope="col" id="topic3">To-Do</th>
+            <th scope="col" id="topic4">Edite</th>
+            <th scope="col" id="topic5">Complete</th>
+            <th scope="col" id="topic6">Delete</th>
+          </tr>
+          
+        </thead>
+
+        <tbody>
+
+        </tbody>
+
+      </table>
+    </div>
+</body>
+</html>

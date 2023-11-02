@@ -1,0 +1,108 @@
+.strikethrough{
+    text-decoration: line-through;
+}
+
+h2{
+    margin-top: 20px;
+    color: rgb(164, 164, 164);
+}
+
+.topic{
+    display: flex;
+    align-items: center;
+}
+
+#maxNumber{
+    margin-left: 1.5rem;
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding: 0.5rem ;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.purple{
+    background-color: blueviolet;
+}
+
+.yellow{
+    background-color: rgb(226, 195, 43);
+}
+
+.red{
+    background-color: rgb(226, 43, 80);
+}
+
+.blue{
+    background-color: rgb(52, 43, 226);
+}
+
+.statusBar{
+    display: flex;
+    align-items: center;
+}
+
+.allToDos{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.completedToDos{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.deletedToDos{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+#alltodos{
+    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: 4px 3px 4px 4px;
+    color: aliceblue;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#completetodos{
+    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: 4px 3px 4px 4px;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(25,135,84);
+}
+
+#deletetodos{
+    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: 4px 3px 4px 4px;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(220,53,69);
+}
+
+.hidden{
+    display: none;
+}
+
+.disabled-button {
+    opacity: 0.5; 
+    cursor: not-allowed; 
+    pointer-events: none;
+  }
+
